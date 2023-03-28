@@ -22,6 +22,7 @@ class _AccountViewState extends State<AccountView> {
           ),
         ),
       ),
+
       body: const Center(
         child: Text("Account View"),
       ),

@@ -3,6 +3,7 @@ import 'package:firebase_test/screens/home_view.dart';
 import 'package:firebase_test/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+//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
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -10,9 +11,11 @@ void main() async {
   runApp(const MyApp());
 }
 
+//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
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  //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
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -122,7 +125,8 @@ class _MyHomePageState extends State<MyHomePage> {
           },
           child: const Text(
             Constants.clickToGoOnHomeScreen,
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 18,
+            ),
           ),
         ),
       ),
